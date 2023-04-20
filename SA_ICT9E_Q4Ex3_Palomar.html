@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Lexend+Zetta&display=swap" rel="stylesheet">
+	<title>Q4 Exercise 3</title>
+	<style type="text/css">
+		body{
+			background: navajowhite;
+			font-family: 'Fondamento', cursive;
+			font-size: 50px;
+
+		}
+		h1{
+
+			font-size: 80px;
+			font-family: 'Lexend Zetta', sans-serif;
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+<h1> JavaScript Operations</h1>
+<table class="table">
+  <tbody>
+    <tr>
+      <th scope="row">Addition</th>
+      <td>x = 10</td>
+      <td>y = 5</td>
+      <td><li> x + y = <strong id="p1"></strong></li></td>
+    </tr>
+    <tbody>
+    <tr>
+      <th scope="row">Subtraction</th>
+      <td>x = 10</td>
+      <td>y = 5</td>
+      <td><li> x - y = <strong id="p2"></strong></li></td>
+    </tr>
+    <tbody>
+    <tr>
+      <th scope="row">Multiplication</th>
+      <td>x = 10</td>
+      <td>y = 5</td>
+      <td><li> x * y = <strong id="p3"></strong></li></td>
+    </tr>
+    <tbody>
+    <tr>
+      <th scope="row">Division</th>
+      <td>x = 10</td>
+      <td>y = 5</td>
+      <td><li> x / y = <strong id="p4"></strong></li></td>
+    </tr>
+    <tbody>
+    <tr>
+      <th scope="row">Remainder</th>
+      <td>x = 10</td>
+      <td>y = 5</td>
+      <td><li> x % y = <strong id="p5"></strong></li></td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+	
+	let x=10, y=5
+
+	let sum = x + y
+	let diff = x - y
+	let product = x * y
+	let quotient = x / y
+	let remainder = x % 2
+
+	alert("The sum of two numbers: " + sum + "\n" + "The difference of two numbers: " + diff + "\n" + "The product of two numbers: " + product + "\n" + "The quotient of two numbers: " + quotient + "\n" + "The remainder of two numbers: " + remainder);
+
+	//variable declaration; assignment of values
+	document.getElementById("p1").innerHTML = x + y;
+	document.getElementById("p2").innerHTML = x - y;
+	document.getElementById("p3").innerHTML = x * y;
+	document.getElementById("p4").innerHTML = x / y;
+	document.getElementById("p5").innerHTML = x % y;
+</script>
+
+
+
+
+
+
+</body>
+</html>
